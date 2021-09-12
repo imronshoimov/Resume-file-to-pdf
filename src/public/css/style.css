@@ -35,7 +35,8 @@ body {
 }
 
 .header .container h1 {
-    font-size: 50px;
+    font-size: 70px;
+    font-weight: normal;
 }
 
 .header .container h2 {
@@ -48,9 +49,43 @@ body {
 
 .header .container p {
     margin: 10px 0;
+    font-size: 19.5px;
 }
 
 .header .container p span, .header .container p a {
     color: rgba(255, 255, 255, 0.8);
     margin-left: 5px;
+}
+
+.target {
+    padding: 25px 0;
+    font-size: 25px;
+}
+
+.main .container li p, .main .container li ul {
+    line-height: 1.6;
+}
+
+.main .container h3 {
+    color: var(--main-color);
+    font-size: 25px;
+    align-self: flex-start;
+    border-bottom: 1px solid var(--main-color);
+    width: 100%;
+    padding: 10px 0;
+}
+
+.centering {
+    width: 600px;
+    padding-right: 40px;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+
+.centering p, .centering li {
+    font-size: 23px;
+}
+
+.centering a {
+    color: rgba(0, 0, 0, 0.6)
 }
