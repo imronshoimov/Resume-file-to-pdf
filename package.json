@@ -1,0 +1,25 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imronshoimov/Resume.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imronshoimov/Resume/issues"
+  },
+  "homepage": "https://github.com/imronshoimov/Resume#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "html-pdf-node": "^1.0.7"
+  }
+}
