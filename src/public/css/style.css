@@ -24,3 +24,33 @@ body {
     width: 1300px;
     margin: 0 auto;
 }
+
+.header {
+    background-color: var(--main-color);
+    color: white;
+}
+
+.header .container {
+    padding: 50px 0;
+}
+
+.header .container h1 {
+    font-size: 50px;
+}
+
+.header .container h2 {
+    font-size: 32px;
+    font-weight: 100;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    color: rgba(255, 255, 255, 0.8)
+}
+
+.header .container p {
+    margin: 10px 0;
+}
+
+.header .container p span, .header .container p a {
+    color: rgba(255, 255, 255, 0.8);
+    margin-left: 5px;
+}
